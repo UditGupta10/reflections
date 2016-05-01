@@ -1,0 +1,8 @@
+Q:What happens when you initialize a repository? Why do you need to do it?
+A: A '.git' file is created which is capable of holding commits.
+This is required for creating commits.
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Its an intermediate platform provided by git to add files which
+need to be committed. The advantage is that rather than committing 
+every file in the working directory, we can choose the bunch of
+files which need to be committed.
