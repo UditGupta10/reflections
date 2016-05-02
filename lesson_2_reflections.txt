@@ -6,3 +6,12 @@ A: Its an intermediate platform provided by git to add files which
 need to be committed. The advantage is that rather than committing 
 every file in the working directory, we can choose the bunch of
 files which need to be committed.
+Q:How can you use the staging area to make sure you have one commit per logical change?
+A:If we only add the file in which the change has been made to the staging area then we commit the changes for that file only.
+Q:What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A:Branches help when we are working on an experimental feature.
+If its required from us to take up a serious issue we can go back
+to the working version, solve the issue, and come back again to work on the experimental feature.
+Q:How do the diagrams help you visualize the branch structure?
+A: The diagrams proved to be very effective in the explanation of
+the concept of branching, 'detached head'.
