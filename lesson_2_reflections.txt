@@ -15,3 +15,10 @@ to the working version, solve the issue, and come back again to work on the expe
 Q:How do the diagrams help you visualize the branch structure?
 A: The diagrams proved to be very effective in the explanation of
 the concept of branching, 'detached head'.
+Q:What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A:We can inculcate changes from 2 branches by merging them. The merged 
+commit has 2 parents therefore.
+Q:What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: The advantage I see with git's merge is that it automatically merges only when its
+completely sure that the branches being merged don't behave differently, else it declines
+the merge and raises a conflict alarm to let us know and resolve it manually.
